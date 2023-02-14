@@ -19,14 +19,17 @@ struct CalculatorButtonStyle: ButtonStyle {
                 .font(.system(size: 32, weight: .medium))
                 .frame(width: size, height: size)
                 .frame(maxWidth: isWide ? .infinity : size, alignment: .leading)
-                .background(backgroundColor)
-                .foregroundColor(foregroundColor)
+//                .background(.clear)
+                .foregroundColor(.black.opacity(0.5))
+                .cornerRadius(20)
+                .modifier(ConcaveGlassView(width: size, height: size))
                 .overlay {
                     if configuration.isPressed {
                         Color(white: 1.0, opacity: 0.2)
+                            .cornerRadius(20)
                     }
                 }
-                .clipShape(Capsule())
+//                .clipShape(Capsule())
     }
 }
 

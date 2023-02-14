@@ -12,14 +12,29 @@ struct CalculatorView: View {
     
     @EnvironmentObject private var viewModel: ViewModel
     
+    @State private var progress: CGFloat = 0
+    let gradient1 = Gradient(colors: [.purple, .yellow])
+    let gradient2 = Gradient(colors: [.blue, .purple])
+    
     var body: some View {
-        VStack {
-            Spacer()
-            displayText
-            buttonPad
+        ZStack {
+            Rectangle()
+                .animatableGradient(fromGradient: gradient1, toGradient: gradient2, progress: progress)
+                .ignoresSafeArea()
+                .onAppear {
+                    withAnimation(.linear(duration: 5.0).repeatForever(autoreverses: true)) {
+                        self.progress = 1.0
+                    }
+                    
+                }
+            VStack {
+                Spacer()
+                displayText
+                buttonPad
+            }
+            .padding(Constants.padding)
+            //        .background(Color.black)
         }
-        .padding(Constants.padding)
-        .background(Color.black)
     }
 }
 
@@ -36,12 +51,13 @@ extension CalculatorView {
     
     private var displayText: some View {
         Text(viewModel.displayText)
-            .padding()
-            .foregroundColor(.white)
+        //            .padding()
+            .foregroundColor(.black.opacity(0.5))
             .frame(maxWidth: .infinity, alignment: .trailing)
             .font(.system(size: 88, weight: .light))
             .lineLimit(1)
             .minimumScaleFactor(0.2)
+            .modifier(ConcaveGlassView(width: UIScreen.main.bounds.width - 22, height: 80))
     }
     
     private var buttonPad: some View {

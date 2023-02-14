@@ -11,7 +11,8 @@ import SwiftUI
 struct GlassmorphcCalculatorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CalculatorView()
+                .environmentObject(CalculatorView.ViewModel())
         }
     }
 }
