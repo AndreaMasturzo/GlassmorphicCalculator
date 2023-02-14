@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43B8C276299B7CFB005BF0A6 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8C275299B7CFB005BF0A6 /* Operations.swift */; };
+		43B8C278299B7D31005BF0A6 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8C277299B7D31005BF0A6 /* ButtonType.swift */; };
+		43B8C27A299B7D5E005BF0A6 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8C279299B7D5E005BF0A6 /* Calculator.swift */; };
+		43B8C27C299B7D9C005BF0A6 /* Digit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8C27B299B7D9C005BF0A6 /* Digit.swift */; };
+		43B8C27E299B7E56005BF0A6 /* CalculatorButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8C27D299B7E56005BF0A6 /* CalculatorButtonStyle.swift */; };
+		43B8C280299B834D005BF0A6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8C27F299B834D005BF0A6 /* ViewModel.swift */; };
+		43B8C282299B837B005BF0A6 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8C281299B837B005BF0A6 /* CalculatorView.swift */; };
+		43B8C284299B83C3005BF0A6 /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8C283299B83C3005BF0A6 /* CalculatorButton.swift */; };
+		43B8C286299B83E9005BF0A6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8C285299B83E9005BF0A6 /* Constants.swift */; };
+		43B8C288299B850E005BF0A6 /* Glassmorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8C287299B850E005BF0A6 /* Glassmorphism.swift */; };
 		43C3F324299B7A0300C5809B /* GlassmorphcCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C3F323299B7A0300C5809B /* GlassmorphcCalculatorApp.swift */; };
 		43C3F326299B7A0300C5809B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C3F325299B7A0300C5809B /* ContentView.swift */; };
 		43C3F328299B7A0400C5809B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C3F327299B7A0400C5809B /* Assets.xcassets */; };
@@ -14,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43B8C275299B7CFB005BF0A6 /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		43B8C277299B7D31005BF0A6 /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		43B8C279299B7D5E005BF0A6 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		43B8C27B299B7D9C005BF0A6 /* Digit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digit.swift; sourceTree = "<group>"; };
+		43B8C27D299B7E56005BF0A6 /* CalculatorButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonStyle.swift; sourceTree = "<group>"; };
+		43B8C27F299B834D005BF0A6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		43B8C281299B837B005BF0A6 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		43B8C283299B83C3005BF0A6 /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		43B8C285299B83E9005BF0A6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		43B8C287299B850E005BF0A6 /* Glassmorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glassmorphism.swift; sourceTree = "<group>"; };
 		43C3F320299B7A0300C5809B /* GlassmorphcCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassmorphcCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C3F323299B7A0300C5809B /* GlassmorphcCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphcCalculatorApp.swift; sourceTree = "<group>"; };
 		43C3F325299B7A0300C5809B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +74,16 @@
 			children = (
 				43C3F323299B7A0300C5809B /* GlassmorphcCalculatorApp.swift */,
 				43C3F325299B7A0300C5809B /* ContentView.swift */,
+				43B8C27D299B7E56005BF0A6 /* CalculatorButtonStyle.swift */,
+				43B8C287299B850E005BF0A6 /* Glassmorphism.swift */,
+				43B8C27F299B834D005BF0A6 /* ViewModel.swift */,
+				43B8C281299B837B005BF0A6 /* CalculatorView.swift */,
+				43B8C283299B83C3005BF0A6 /* CalculatorButton.swift */,
+				43B8C285299B83E9005BF0A6 /* Constants.swift */,
+				43B8C275299B7CFB005BF0A6 /* Operations.swift */,
+				43B8C277299B7D31005BF0A6 /* ButtonType.swift */,
+				43B8C279299B7D5E005BF0A6 /* Calculator.swift */,
+				43B8C27B299B7D9C005BF0A6 /* Digit.swift */,
 				43C3F327299B7A0400C5809B /* Assets.xcassets */,
 				43C3F329299B7A0400C5809B /* GlassmorphcCalculator.entitlements */,
 				43C3F32A299B7A0400C5809B /* Preview Content */,
@@ -139,8 +169,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B8C276299B7CFB005BF0A6 /* Operations.swift in Sources */,
+				43B8C286299B83E9005BF0A6 /* Constants.swift in Sources */,
+				43B8C278299B7D31005BF0A6 /* ButtonType.swift in Sources */,
+				43B8C27E299B7E56005BF0A6 /* CalculatorButtonStyle.swift in Sources */,
 				43C3F326299B7A0300C5809B /* ContentView.swift in Sources */,
+				43B8C27A299B7D5E005BF0A6 /* Calculator.swift in Sources */,
 				43C3F324299B7A0300C5809B /* GlassmorphcCalculatorApp.swift in Sources */,
+				43B8C280299B834D005BF0A6 /* ViewModel.swift in Sources */,
+				43B8C282299B837B005BF0A6 /* CalculatorView.swift in Sources */,
+				43B8C27C299B7D9C005BF0A6 /* Digit.swift in Sources */,
+				43B8C284299B83C3005BF0A6 /* CalculatorButton.swift in Sources */,
+				43B8C288299B850E005BF0A6 /* Glassmorphism.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
